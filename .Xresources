@@ -4,7 +4,6 @@ URxvt.cursorUnderline: true
 URxvt.font: xft:inconsolata:size=16
 URxvt.lineSpace: 1
 URxvt.letterSpace: -1
-URxvt.visualBell: false
 
 URxvt.background: #1C1C1C
 URxvt.foreground: #DEDEDE
