@@ -11,11 +11,6 @@ Plugin 'mattn/emmet-vim'
 call vundle#end()
 filetype plugin indent on
 
-au BufRead,BufNewFile *.js set et sts=2 sw=2
-au BufRead,BufNewFile *.html set et sts=2 sw=2
-au BufRead,BufNewFile *.scss set et sts=2 sw=2
-au BufRead,BufNewFile *.css set et sts=2 sw=2
-
 syntax on
 set number
 set winminheight=0
