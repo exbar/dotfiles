@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
 
 Plugin 'mattn/emmet-vim'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
@@ -13,8 +14,8 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 call vundle#end()
 filetype plugin indent on
 
-
 syntax on
 set number
-set winminheight=0
-set winheight=99
+
+"set winminheight=0
+"set winheight=99
